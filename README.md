@@ -39,7 +39,7 @@ Step 1. Create a new Resource Group (this can be created under the VM create)
 ![image](https://github.com/user-attachments/assets/48aeb935-eab3-467a-9c0e-cddd878220d1)
 
 Step 2. Create an Azure Virtual Machine Windows 11, 4 vCPUs
-•	Name: osticket-vm – of the VM
+•	Name: osticket-vm 
 •	Region: (US) Central US
 •	Image: Windows 11 Pro
 •	Username: labuser
