@@ -164,7 +164,7 @@ Step 20. Continue the setup of osTicket in the Web Browser
 
 ![image](https://github.com/user-attachments/assets/ec7544ad-f8c8-4d06-b9d4-86c727caf405)
 
-Step 21. Install HeidiSQL from the osTicket-Installation-Files
+Step 21. Install [HeidiSQL](https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit) from the osTicket-Installation-Files
 •	Open Heidi SQL – install
 •	Hit accept and make sure the Launch HeidiSQL box is checked
 •	Then Hit Skip
