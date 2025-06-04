@@ -51,7 +51,7 @@ Step 2. Create an Azure Virtual Machine Windows 11, 4 vCPUs
 Step 3. Obtain the Osticket-vm IP address, as you’ll need it for the Remote Desktop.
 ![image](https://github.com/user-attachments/assets/16e4011e-5f2c-45c0-92aa-fbc8d75c46c2)
 
-Step 4. Login to the VM using the IP with the Remote Desktop (Note your IP address will be different)
+Step 4. Login to the VM using the IP with the Remote Desktop (Note: your IP address will be different)
 
 ![image](https://github.com/user-attachments/assets/eab8b7ed-95bf-4d4f-9bac-4ed93ff701f7)
 
