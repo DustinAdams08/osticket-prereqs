@@ -96,8 +96,8 @@ Step 11. Install [MySQL 5.5.62](https://drive.google.com/file/d/1_OWh9p7VQLcrB0q
 •	Locate the File inside the osticket folder on the desktop and just click I agree. 
 •	Be sure to select “Typical” when installing
 •	Be sure to choose “Standard Configuration.” 
-•	Username: groot
-•	Password: groot
+•	Username: root
+•	Password: root
 •	Then click next and execute
 
 Step 12. Click Start and type ISS, and click Run as Admin
@@ -124,7 +124,81 @@ Step 16. Open the osTicket Site
 
 ![image](https://github.com/user-attachments/assets/18a40924-e6c8-4899-9d07-75d77cc1367f)
 
-Congratulations, OsTicket is installed! 
-![image](https://github.com/user-attachments/assets/191d24a7-0583-440a-9efd-1d751fc2aecd)
+Step 17. Go to IIS, sites -> Default -> osTicket
+![image](https://github.com/user-attachments/assets/23ff69b2-3796-488e-83f2-86e0e2716db6)
+
+•	Open PHP Manager 
+•	Click Enable or Disable an extension (note they will be in grey)
+•	Enable the following: php_imap.dII – php_intI.dII – php_opcache.dII
+•	Refresh the osTicket site in the browser to observe the changes
+
+![image](https://github.com/user-attachments/assets/05da644c-cab5-4506-9c58-524f5d059809)
+
+Step 18. Rename: ost-config.php
+•	From Windows C – inetpup – wwwroot – osTicket – include
+•	Find ost-sampleconfig.php and rename ost-config.php
+
+![image](https://github.com/user-attachments/assets/5e0b6535-57f0-4594-ba3a-45740b86fe7c)
+![image](https://github.com/user-attachments/assets/62677f9d-e321-4493-a552-f09933877968)
+
+Step 19.  Assign Permissions: ost-config.php
+•	Right-click on ost-config.php
+•	Go to Properties – Security – Then Advanced
+•	Disable inheritance – Remove All 
+
+![image](https://github.com/user-attachments/assets/c2a13a72-629e-486f-aa73-9114f43f94a1)
+
+•	Add New Permissions – Select a New Principal – Type Everyone – All 
+•	Then, make sure you check Full Control
+
+![image](https://github.com/user-attachments/assets/3decb213-cf5d-48c2-b5ba-961077f7c057)
+
+•	Then click apply – then Ok, and the setup should look like this. 
+
+![image](https://github.com/user-attachments/assets/b40d7ac9-4f71-430f-8131-bdf059202f90)
+
+Step 20. Continue the setup of osTicket in the Web Browser 
+•	Click continue at the bottom and fill out the required information
+•	Username: adminuser
+•	Password: Password1
+
+![image](https://github.com/user-attachments/assets/ec7544ad-f8c8-4d06-b9d4-86c727caf405)
+
+Step 21. Install HeidiSQL from the osTicket-Installation-Files
+•	Open Heidi SQL – install
+•	Hit accept and make sure the Launch HeidiSQL box is checked
+•	Then Hit Skip
+
+![image](https://github.com/user-attachments/assets/03226af3-1327-4f29-b560-eb764836d3c5)
+
+•	Create a new session by clicking New at the bottom
+•	Enter the username: root 
+•	Enter password: root 
+•	Then click on the Dolphin-like Icon and select new, then database
+•	The new database name will be “osTicket”.
+
+![image](https://github.com/user-attachments/assets/91cb2a3c-2058-449f-9d4b-3bf086929df1)
+
+Step 22. Continue setting up osTicket in the browser
+•	MySQL Database: osTicket
+•	Username: root
+•	Password: root
+
+![image](https://github.com/user-attachments/assets/7d005a3d-2313-4e09-b116-9b33eef0a52d)
+![image](https://github.com/user-attachments/assets/f54c06c8-1e0d-4bdb-8934-d5d7bd9298e7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
